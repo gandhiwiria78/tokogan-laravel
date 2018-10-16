@@ -1,0 +1,40 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+$fa-font-path:"../webfonts";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~admin-lte/dist/css/adminlte.css';
+
+//instal fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+@import '~@voerro/vue-tagsinput/dist/style.css';
+//install quiljs untuk editor html
+// @import '~quill/dist/quill.core.css';
+// @import '~quill/dist/quill.snow.css';
+// @import '~quill/dist/quill.bubble.css';
+
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active {
+    background-color: #1fa272 !important;
+    color: #fff !important;
+}
+
+.btn {
+    background-color: #e47620;
+    border-color: #b13b18;
+    color: #fff !important;
+}
